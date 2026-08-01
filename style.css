@@ -76,8 +76,9 @@ button{ font-family:inherit; }
 }
 .nav__brand{
   font-family:var(--font-display);
-  font-weight:700;
-  font-size:1.3rem;
+   height: 50px;
+   width: auto;
+   object-fit: contain;
 }
 .nav__brand span{ color:var(--violet-2); }
 
